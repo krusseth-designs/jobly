@@ -1,3 +1,7 @@
-import { createContext } from 'react';
+import React from "react";
 
-export default createContext();
+/** Context: provides currentUser object and setter for it throughout app. */
+
+const UserContext = React.createContext();
+
+export default UserContext;
